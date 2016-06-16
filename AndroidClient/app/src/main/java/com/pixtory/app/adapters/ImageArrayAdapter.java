@@ -43,7 +43,7 @@ public class ImageArrayAdapter extends ArrayAdapter<SideMenuData> {
         if(convertView==null)
             convertView = LayoutInflater.from(context).inflate(R.layout.menu_image,parent,false);
         menuImage = (ImageView)convertView.findViewById(R.id.image_menu);
-        menuText = (TextView)convertView.findViewById(R.id.menu_text);
+        menuText = (TextView)convertView.findViewById(R.id.menu_option_text);
         menuImage.setImageDrawable(items.get(position).drawable);
         if(position!=0)
             menuText.setText(items.get(position).menuText);

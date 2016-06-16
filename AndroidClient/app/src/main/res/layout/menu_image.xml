@@ -21,7 +21,7 @@
                 android:textColor="@color/app_blue"
                 android:layout_margin="5dp"
                 android:textAlignment="center"
-                android:id="@+id/menu_text"
+                android:id="@+id/menu_option_text"
                 android:fontFamily="sans-serif-light"
                 android:textStyle="bold"/>
         </LinearLayout>
